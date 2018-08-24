@@ -12,4 +12,5 @@
 * [Complete Examples](examples/README.md)
   * [Points/Currency System](examples/points.md)
   * [Per-Server Settings](examples/settings.md)
+* [API Reference](api-reference.md)
 
