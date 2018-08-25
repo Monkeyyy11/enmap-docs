@@ -1,9 +1,3 @@
----
-description: >-
-  This page describes all changes between versions of Enmap, most recent
-  versions at the top.
----
-
 # Changelog
 
 ## Version 4.0

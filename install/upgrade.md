@@ -1,9 +1,3 @@
----
-description: >-
-  This page describes the exact steps necessary to upgrade from Enmap 3 (or
-  earlier versions) to Enmap 4.
----
-
 # Upgrade from Enmap 3 to 4
 
 Upgrading to enmap v4 requires a little bit of migration, as Enmap 4 changed the internal method by which data is stored, slightly. To use this migration:
@@ -11,7 +5,7 @@ Upgrading to enmap v4 requires a little bit of migration, as Enmap 4 changed the
 * Make a copy of your current app in a new folder.
 * Create a new folder "on the same level" as your bot. Name it something like "migrate"
 * You should now have 3 folders. Something like `mybotss/coolbot` , `mybots/coolbot-copy` , `mybots/migrate/`
-* In the `migrate` folder, run `npm i enmap@latest enmap-sqlite@latest` , as well as whatever source provider you need if it's not sqlite \(in my example, `npm i enmap-mongo@latest`
+* In the `migrate` folder, run `npm i enmap@3.1.4 enmap-sqlite@latest` , as well as whatever source provider you need if it's not sqlite \(in my example, `npm i enmap-mongo@latest`
 
 You should now have something like the following image.
 
@@ -86,4 +80,8 @@ Object.assign(client, Enmap.multi(["settings", "tags"]));
 ```
 
 The rest of your code \(all interactions with Enmap\) can remain the same - there should be no need to edit any of it. 
+
+## Installing V4
+
+Once your data is migrating and the code is changed, you can go ahead and install enmap version 4 through `npm i enmap@latest` in your "new" bot folder \(the target of the migration\).  This will take a few minutes \(it needs to rebuild sqlite\) and output that 4.0.x is now installed. Start the bot, and it should be working! If it doesn't, join the support server and we'll help you out ^\_^.
 
