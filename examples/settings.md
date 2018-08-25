@@ -1,15 +1,8 @@
----
-description: >-
-  A very common use for Enmap in discord.js botmaking is to save settings for
-  each guilds, for custom prefixes, welcome messages, and role configurations.
-  Let's get rockin'!
----
-
 # Per-Server Settings
 
 This example uses a very, _very_ simple bot made in discord.js to demonstrate how easily [Enmap](https://www.npmjs.com/package/enmap) can be used to create a per-server configuration system.
 
-Remember to follow the [Installation Instructions](../install.md) before running any of this!
+Remember to follow the [Installation Instructions](../install/) before running any of this!
 
 ## Initializing
 

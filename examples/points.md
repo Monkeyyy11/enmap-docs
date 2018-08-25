@@ -1,10 +1,3 @@
----
-description: >-
-  Have you always been attracted to Mee6-like bots that tell you when you level
-  up, sometimes in an obnoxious way? This page will show you how to replicate
-  the very basics of this system!
----
-
 # Points/Currency System
 
 This points bot is simple, but functional. Make sure you've followed the Installation Instructions before doing the following. 

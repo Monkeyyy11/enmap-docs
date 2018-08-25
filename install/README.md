@@ -43,8 +43,10 @@ Once installed, you're ready to continue.
 
 To install Enmap in your project, all you need to to is run the following command: 
 
-```text
-npm i enmap
+```javascript
+// npm i enmap
+For the rewrite beta, use: 
+npm i eslachance/enmap#rewrite
 ```
 
 This may take a few minutes, then you're ready to use it. 
